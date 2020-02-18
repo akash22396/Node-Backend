@@ -69,7 +69,7 @@
    after login user get json web token if email and password is correct
    
    for user details pass json web token 
-   "headers":{	"authorization":"auth <json web token>"}
+   "headers":{	"authorization":"auth token"}
         
         
         
