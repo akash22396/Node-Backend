@@ -22,6 +22,9 @@
           KEY `id` (`id`)
         ) ENGINE=InnoDB AUTO_INCREMENT=996 DEFAULT CHARSET=latin1;
 
+# config db connection 
+           go to middleware folder and open dbCon file and pass username host password and database name
+
 # Donwload and run following command on root directory 
 
     yarn install or npm install 
@@ -67,6 +70,10 @@
    
    for user details pass json web token 
    "headers":{	"authorization":"auth <json web token>"}
+        
+        
+        
+For frontend react redux UI download https://github.com/akash22396/reactLogin  project
    
 
      
