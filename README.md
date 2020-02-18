@@ -18,7 +18,33 @@
 # Router 
     user.js => router where user login and registration query written
     
+    
+# user registration pass param
+   {
+        "email":" ",
+        "password":" ",
+        "username":" ",
+        "mob_no":" ",
+        "gender":" ",
+        "city":" ",
+        "country":" ",
+        "age":" ",
+        "user_image":""
+    }
+    
+# user login pass param 
+   {
+    "email":" ",
+    "password":" "
+    }
       
+# auth
+   after login user get json web token if email and password is correct
+   
+   for user details pass json web token 
+   "headers":{	"authorization":"auth <json web token>"}
+   
+
      
     
  
