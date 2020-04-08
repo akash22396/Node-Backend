@@ -1,4 +1,30 @@
+# Create mysql database 
 
+           create database test_db
+           use test_db;
+       
+# Create table 
+
+           CREATE TABLE `registration` (
+             `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+             `username` varchar(255) NOT NULL,
+             `login_mode` varchar(255) NOT NULL DEFAULT '',
+             `email` varchar(255) NOT NULL,
+             `password` varchar(255) NOT NULL,
+             `access_token` text NOT NULL,
+             `Mobile_number` varchar(255) DEFAULT NULL,
+             `gender` varchar(255) DEFAULT NULL,
+             `age` varchar(255) DEFAULT NULL,
+             `city` varchar(255) DEFAULT NULL,
+             `country` varchar(255) DEFAULT NULL,
+             `profile_image` varchar(255) DEFAULT 'null',
+             `created_datetime` datetime NOT NULL,
+             `last_login` datetime NOT NULL,
+             `otp` int(11) DEFAULT '0',
+             `otp_msg` varchar(100) DEFAULT NULL,
+             PRIMARY KEY (`email`),
+             KEY `id` (`id`)
+           ) ;
 
 # config db connection 
            go to middleware folder and open dbCon file and pass username host password and database name
