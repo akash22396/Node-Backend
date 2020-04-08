@@ -1,0 +1,26 @@
+.mainContainer {
+    position: relative;
+
+}
+
+.leftSideNav {
+    position: fixed;
+    background: black;
+    color: white;
+    height: 95vh;
+    /* height: 100%; */
+    top: auto;
+    width: 20%;
+    overflow-y: auto;
+}
+
+.bodyContainer {
+    position: absolute;
+    width: 80%;
+    margin-left: auto;
+
+    background: #f2f2f2;
+    color: #000;
+    /* padding-left: auto; */
+    right: 0;
+}
